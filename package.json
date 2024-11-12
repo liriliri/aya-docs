@@ -1,0 +1,28 @@
+{
+  "name": "aya-docs",
+  "version": "0.1.0",
+  "description": "Aya docs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "format": "lsla prettier \"*.json\" \"docs/**/*.{mts,js,vue,css}\" --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liriliri/aya-docs.git"
+  },
+  "keywords": [
+    "aya",
+    "adb"
+  ],
+  "author": "surunzi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liriliri/aya-docs/issues"
+  },
+  "homepage": "https://github.com/liriliri/aya-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}

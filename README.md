@@ -1,2 +1,6 @@
-# aya-docs
-Documentation for Aya
+# aya.liriliri.io
+
+```bash
+npm i
+npm run dev
+```
