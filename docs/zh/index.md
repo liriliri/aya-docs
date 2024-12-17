@@ -9,6 +9,9 @@ hero:
   text: "Android ADB 桌面应用"
   tagline: AYA 是一个桌面应用程序，用于简化对安卓设备的操作控制，可以看作是 ADB 的图形用户界面。
   actions:
+    - theme: brand
+      text: 快速上手
+      link: /zh/guide/
     - theme: alt
       text: Windows
       link: https://release.liriliri.io/AYA-0.1.0-win-x64.exe
