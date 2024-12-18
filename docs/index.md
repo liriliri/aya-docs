@@ -21,4 +21,18 @@ hero:
   image:
     src: /screenshot.png
     alt: screenshot
+
+features:
+  - icon:
+      src: /rocket.svg
+    title: Easy to Install
+    details: Built-in ADB, ready to use upon installation without any additional complicated operations.
+  - icon:
+      src: /tools.svg
+    title: Feature-rich
+    details: Divided into multiple panels by category, including app management, performance monitoring, process management, and more.
+  - icon:
+      src: /easy.svg
+    title: Easy to Use
+    details: Graphical user interface, one-click operations, no need to input any commands. 
 ---
