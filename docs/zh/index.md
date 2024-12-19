@@ -7,7 +7,7 @@ titleTemplate: Android ADB 桌面应用
 hero:
   name: "AYA"
   text: "Android ADB 桌面应用"
-  tagline: AYA 是一个桌面应用程序，用于简化对安卓设备的操作控制，可以看作是 ADB 的图形用户界面。
+  tagline: AYA 是一个用于简化对安卓设备操作控制的桌面应用程序，可以看作是 ADB 的图形用户界面。
   actions:
     - theme: brand
       text: 快速上手
