@@ -45,6 +45,10 @@ export default defineConfig({
         link: 'https://github.com/liriliri/aya',
       },
     ],
+    footer: {
+      message: 'Released under the AGPL-3.0 License.',
+      copyright: 'Copyright © 2024-present liriliri'
+    }
   },
   locales: {
     root: {
@@ -112,6 +116,10 @@ export default defineConfig({
           text: '提出修改意见',
         },
         lastUpdatedText: '修改日期',
+        footer: {
+          message: '基于 AGPL-3.0 许可发布',
+          copyright: '版权所有 © 2024 至今 liriliri'
+        }
       },
     },
   },
