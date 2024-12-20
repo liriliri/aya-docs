@@ -4,7 +4,7 @@
 
 AYA 支持 [Windows x64](https://release.liriliri.io/AYA-0.1.0-win-x64.exe) 和 [macOS ARM](https://release.liriliri.io/AYA-0.1.0-mac-arm64.dmg) 两个平台，下载安装后直接点击桌面图标开始使用。
 
-## 连接手机
+## 连接设备
 
 要使用 AYA 你首先需要在设备上打开 USB 调试功能，通常需要经过以下步骤： 
 
