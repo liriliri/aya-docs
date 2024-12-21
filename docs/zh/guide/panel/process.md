@@ -1,6 +1,6 @@
 # 进程
 
-进程面板可以查看手机上所有进程的情况，本质上是 `adb shell top` 命令。
+进程面板可以查看设备上所有进程的情况，本质上是 `adb shell top` 命令。
 
 ![process](/process.png)
 

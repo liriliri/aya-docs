@@ -39,6 +39,56 @@ export default defineConfig({
       height: 48,
     },
     nav: [{ text: 'Guide', link: '/guide/' }],
+    sidebar: {
+      'guide/': [
+        {
+          text: 'Introduction',
+          link: '/guide/',
+        },
+        {
+          text: 'Quick Start',
+          link: '/guide/quickstart',
+        },
+        {
+          text: 'Panel',
+          collapsed: false,
+          items: [
+            {
+              text: 'Overview',
+              link: '/guide/panel/overview',
+            },
+            {
+              text: 'Application',
+              link: '/guide/panel/application',
+            },
+            {
+              text: 'Screenshot',
+              link: '/guide/panel/screenshot',
+            },
+            {
+              text: 'Logcat',
+              link: '/guide/panel/logcat',
+            },
+            {
+              text: 'Shell',
+              link: '/guide/panel/shell',
+            },
+            {
+              text: 'Process',
+              link: '/guide/panel/process',
+            },
+            {
+              text: 'Performance',
+              link: '/guide/panel/performance',
+            },
+            {
+              text: 'Webview',
+              link: '/guide/panel/webview',
+            },
+          ],
+        },
+      ],
+    },
     socialLinks: [
       {
         icon: 'github',
