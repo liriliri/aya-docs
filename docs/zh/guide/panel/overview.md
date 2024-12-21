@@ -2,7 +2,7 @@
 
 概览面板用于查看设备的基本信息，包括名称、品牌、型号、序列号、Android 版本、处理器、分辨率、存储和内存。
 
-![overview](/screenshot.png)
+![overview](/overview.png)
 
 :::info 单击每一项可以对值进行复制。
 :::
