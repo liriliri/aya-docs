@@ -18,6 +18,9 @@ hero:
     - theme: alt
       text: macOS
       link: https://release.liriliri.io/AYA-0.1.0-mac-arm64.dmg 
+    - theme: alt
+      text: Linux
+      link: https://release.liriliri.io/AYA-0.1.0-linux-x86_64.AppImage
   image:
     src: /screenshot.png
     alt: screenshot
