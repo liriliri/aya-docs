@@ -87,6 +87,10 @@ export default defineConfig({
             },
           ],
         },
+        {
+          text: 'Contributing Guide',
+          link: '/guide/contributing',
+        },
       ],
     },
     socialLinks: [
@@ -158,6 +162,10 @@ export default defineConfig({
                   link: '/zh/guide/panel/webview',
                 },
               ],
+            },
+            {
+              text: '贡献指南',
+              link: '/zh/guide/contributing',
             },
           ],
         },
