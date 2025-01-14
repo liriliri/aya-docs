@@ -58,20 +58,12 @@ export default defineConfig({
               link: '/guide/panel/overview',
             },
             {
+              text: 'File',
+              link: '/guide/panel/file',
+            },
+            {
               text: 'Application',
               link: '/guide/panel/application',
-            },
-            {
-              text: 'Screenshot',
-              link: '/guide/panel/screenshot',
-            },
-            {
-              text: 'Logcat',
-              link: '/guide/panel/logcat',
-            },
-            {
-              text: 'Shell',
-              link: '/guide/panel/shell',
             },
             {
               text: 'Process',
@@ -80,6 +72,18 @@ export default defineConfig({
             {
               text: 'Performance',
               link: '/guide/panel/performance',
+            },
+            {
+              text: 'Shell',
+              link: '/guide/panel/shell',
+            },
+            {
+              text: 'Screenshot',
+              link: '/guide/panel/screenshot',
+            },
+            {
+              text: 'Logcat',
+              link: '/guide/panel/logcat',
             },
             {
               text: 'Webview',
@@ -134,20 +138,12 @@ export default defineConfig({
                   link: '/zh/guide/panel/overview',
                 },
                 {
+                  text: '文件管理',
+                  link: '/zh/guide/panel/file',
+                },
+                {
                   text: '应用管理',
                   link: '/zh/guide/panel/application',
-                },
-                {
-                  text: '截屏',
-                  link: '/zh/guide/panel/screenshot',
-                },
-                {
-                  text: '日志查看',
-                  link: '/zh/guide/panel/logcat',
-                },
-                {
-                  text: '终端',
-                  link: '/zh/guide/panel/shell',
                 },
                 {
                   text: '进程管理',
@@ -156,6 +152,18 @@ export default defineConfig({
                 {
                   text: '性能监控',
                   link: '/zh/guide/panel/performance',
+                },
+                {
+                  text: '终端',
+                  link: '/zh/guide/panel/shell',
+                },
+                {
+                  text: '截屏',
+                  link: '/zh/guide/panel/screenshot',
+                },
+                {
+                  text: '日志查看',
+                  link: '/zh/guide/panel/logcat',
                 },
                 {
                   text: '网页调试',
