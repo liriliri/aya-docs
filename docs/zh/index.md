@@ -14,13 +14,13 @@ hero:
       link: /zh/guide/
     - theme: alt
       text: Windows
-      link: https://release.liriliri.io/AYA-0.2.0-win-x64.exe
+      link: https://release.liriliri.io/AYA-0.3.0-win-x64.exe
     - theme: alt
       text: macOS
-      link: https://release.liriliri.io/AYA-0.2.0-mac-arm64.dmg 
+      link: https://release.liriliri.io/AYA-0.3.0-mac-arm64.dmg 
     - theme: alt
       text: Linux
-      link: https://release.liriliri.io/AYA-0.2.0-linux-x86_64.AppImage  
+      link: https://release.liriliri.io/AYA-0.3.0-linux-x86_64.AppImage  
   image:
     src: /screenshot.png
     alt: screenshot
