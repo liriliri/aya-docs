@@ -2,7 +2,7 @@
 
 ## 安装
 
-AYA 支持 [Windows x64](https://release.liriliri.io/AYA-0.6.0-win-x64.exe)，[macOS ARM](https://release.liriliri.io/AYA-0.6.0-mac-arm64.dmg) 和 [Linux](https://release.liriliri.io/AYA-0.6.0-linux-x86_64.AppImage) 两个平台，下载安装后直接点击桌面图标开始使用。
+AYA 支持 [Windows x64](https://release.liriliri.io/AYA-0.6.1-win-x64.exe)，[macOS ARM](https://release.liriliri.io/AYA-0.6.1-mac-arm64.dmg) 和 [Linux](https://release.liriliri.io/AYA-0.6.1-linux-x86_64.AppImage) 两个平台，下载安装后直接点击桌面图标开始使用。
 
 :::warning macOS 下出现已损坏提示，可执行 `sudo xattr -r -d com.apple.quarantine /Applications/AYA.app` 解决。
 :::
