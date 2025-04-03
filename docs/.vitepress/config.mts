@@ -1,7 +1,13 @@
 import { defineConfig } from 'vitepress'
+import * as fs from 'fs'
+import * as path from 'path'
 
 const editLinkPattern =
   'https://github.com/liriliri/aya-docs/edit/master/docs/:path'
+
+const icon = (name: string) => {
+  return fs.readFileSync(path.resolve(__dirname, `${name}.svg`), 'utf8')
+}
 
 export default defineConfig({
   title: 'AYA',
@@ -98,6 +104,18 @@ export default defineConfig({
       ],
     },
     socialLinks: [
+      {
+        icon: {
+          svg: icon('kofi'),
+        },
+        link: 'https://ko-fi.com/surunzi',
+      },
+      {
+        icon: {
+          svg: icon('wechatpay'),
+        },
+        link: 'https://surunzi.com/wechatpay.html',
+      },
       {
         icon: 'github',
         link: 'https://github.com/liriliri/aya',
