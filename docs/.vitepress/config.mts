@@ -84,6 +84,10 @@ export default defineConfig({
               link: '/guide/panel/shell',
             },
             {
+              text: 'Layout',
+              link: '/guide/panel/layout',
+            },
+            {
               text: 'Screenshot',
               link: '/guide/panel/screenshot',
             },
@@ -174,6 +178,10 @@ export default defineConfig({
                 {
                   text: '终端',
                   link: '/zh/guide/panel/shell',
+                },
+                {
+                  text: '界面布局',
+                  link: '/zh/guide/panel/layout',
                 },
                 {
                   text: '截屏',
