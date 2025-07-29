@@ -14,16 +14,16 @@ hero:
       link: /guide/
     - theme: alt
       text: Windows
-      link: https://release.liriliri.io/aya/AYA-1.12.1-win-x64.exe
+      link: https://release.liriliri.io/aya/AYA-1.12.2-win-x64.exe
     - theme: alt
       text: macOS Apple silicon
-      link: https://release.liriliri.io/aya/AYA-1.12.1-mac-arm64.dmg 
+      link: https://release.liriliri.io/aya/AYA-1.12.2-mac-arm64.dmg 
     - theme: alt
       text: macOS Intel chip 
-      link: https://release.liriliri.io/aya/AYA-1.12.1-mac-x64.dmg 
+      link: https://release.liriliri.io/aya/AYA-1.12.2-mac-x64.dmg 
     - theme: alt
       text: Linux
-      link: https://release.liriliri.io/aya/AYA-1.12.1-linux-x86_64.AppImage
+      link: https://release.liriliri.io/aya/AYA-1.12.2-linux-x86_64.AppImage
   image:
     src: /screenshot.png
     alt: screenshot
