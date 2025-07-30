@@ -7,6 +7,8 @@
 在克隆仓库后，运行以下命令：
 
 ```bash
+# 拉取子模块。
+git submodule update --init --recursive
 # 安装 npm 依赖。
 npm install
 # 下载 adb 工具。
