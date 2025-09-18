@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 import * as fs from 'fs'
 import * as path from 'path'
+import { fileURLToPath } from 'node:url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const editLinkPattern =
   'https://github.com/liriliri/aya-docs/edit/master/docs/:path'
@@ -213,6 +216,13 @@ export default defineConfig({
           copyright: '版权所有 © 2024 至今 liriliri',
         },
       },
+    },
+  },
+  vite: {
+    resolve: {
+      alias: [
+        { find: '@share', replacement: path.resolve(__dirname, './share') },
+      ],
     },
   },
   head: [
