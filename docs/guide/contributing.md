@@ -7,6 +7,8 @@ Developing aya requires [Node.js](https://nodejs.org) and Android SDK tools.
 After cloning the repository, run the following commands:
 
 ```bash
+# fetch submodules.
+git submodule update --init --recursive
 # Install npm dependencies.
 npm install
 # Download adb tools.
