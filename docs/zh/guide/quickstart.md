@@ -4,9 +4,6 @@
 
 AYA 支持 [Windows x64](https://release.liriliri.io/aya/AYA-1.12.2-win-x64.exe)，[macOS arm64](https://release.liriliri.io/aya/AYA-1.12.2-mac-arm64.dmg)，[macOS x64](https://release.liriliri.io/aya/AYA-1.12.2-mac-x64.dmg) 和 [Linux](https://release.liriliri.io/aya/AYA-1.12.2-linux-x86_64.AppImage) 两个平台，下载安装后直接点击桌面图标开始使用。
 
-:::warning macOS 下出现已损坏提示，可执行 `sudo xattr -r -d com.apple.quarantine /Applications/AYA.app` 解决。
-:::
-
 ## 连接设备
 
 要使用 AYA 你首先需要在设备上打开 USB 调试功能，通常需要经过以下步骤： 

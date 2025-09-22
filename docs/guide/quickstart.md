@@ -4,9 +4,6 @@
 
 AYA supports [Windows x64](https://release.liriliri.io/aya/AYA-1.12.2-win-x64.exe), [macOS arm64](https://release.liriliri.io/aya/AYA-1.12.2-mac-arm64.dmg), [macOS x64](https://release.liriliri.io/aya/AYA-1.12.2-mac-x64.dmg) and [Linux](https://release.liriliri.io/aya/AYA-1.12.2-linux-x86_64.AppImage) platforms. After downloading and installing, simply click the desktop icon to start using it.
 
-:::warning If you encounter a "damaged" prompt on macOS, you can resolve it by executing `sudo xattr -r -d com.apple.quarantine /Applications/AYA.app`.
-:::
-
 ## Connecting Devices
 
 To use AYA, you first need to enable USB debugging on your device. Typically, this involves the following steps:
