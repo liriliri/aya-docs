@@ -1,16 +1,14 @@
 import { defineConfig } from 'vitepress'
-import * as fs from 'fs'
-import * as path from 'path'
-import { fileURLToPath } from 'node:url'
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url))
+import {
+  kofi,
+  wechatpay,
+  logo,
+  shareAlias,
+  googleAnalytics,
+} from './share/config.mts'
 
 const editLinkPattern =
   'https://github.com/liriliri/aya-docs/edit/master/docs/:path'
-
-const icon = (name: string) => {
-  return fs.readFileSync(path.resolve(__dirname, `${name}.svg`), 'utf8')
-}
 
 export default defineConfig({
   title: 'AYA',
@@ -42,11 +40,7 @@ export default defineConfig({
         },
       },
     },
-    logo: {
-      src: '/logo.png',
-      width: 48,
-      height: 48,
-    },
+    logo,
     nav: [{ text: 'Guide', link: '/guide/' }],
     sidebar: {
       'guide/': [
@@ -111,18 +105,8 @@ export default defineConfig({
       ],
     },
     socialLinks: [
-      {
-        icon: {
-          svg: icon('kofi'),
-        },
-        link: 'https://ko-fi.com/surunzi',
-      },
-      {
-        icon: {
-          svg: icon('wechatpay'),
-        },
-        link: 'https://surunzi.com/wechatpay.html',
-      },
+      kofi,
+      wechatpay,
       {
         icon: 'github',
         link: 'https://github.com/liriliri/aya',
@@ -220,26 +204,8 @@ export default defineConfig({
   },
   vite: {
     resolve: {
-      alias: [
-        { find: '@share', replacement: path.resolve(__dirname, './share') },
-      ],
+      alias: [shareAlias],
     },
   },
-  head: [
-    [
-      'script',
-      {
-        async: '',
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-1J1Y3KN46R',
-      },
-    ],
-    [
-      'script',
-      {},
-      `window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-1J1Y3KN46R');`,
-    ],
-  ],
+  head: googleAnalytics('G-1J1Y3KN46R'),
 })
