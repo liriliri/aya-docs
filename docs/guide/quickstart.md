@@ -2,7 +2,7 @@
 
 ## Installation
 
-AYA supports [Windows x64](https://release.liriliri.io/aya/AYA-1.12.2-win-x64.exe), [macOS arm64](https://release.liriliri.io/aya/AYA-1.12.2-mac-arm64.dmg), [macOS x64](https://release.liriliri.io/aya/AYA-1.12.2-mac-x64.dmg) and [Linux](https://release.liriliri.io/aya/AYA-1.12.2-linux-x86_64.AppImage) platforms. After downloading and installing, simply click the desktop icon to start using it.
+AYA supports [Windows x64](https://release.liriliri.io/aya/AYA-1.13.0-win-x64.exe), [macOS arm64](https://release.liriliri.io/aya/AYA-1.13.0-mac-arm64.dmg), [macOS x64](https://release.liriliri.io/aya/AYA-1.13.0-mac-x64.dmg) and [Linux](https://release.liriliri.io/aya/AYA-1.13.0-linux-x86_64.AppImage) platforms. After downloading and installing, simply click the desktop icon to start using it.
 
 ## Connecting Devices
 
