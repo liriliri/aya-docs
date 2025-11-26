@@ -11,6 +11,12 @@ const version = "1.14.0"
 const downloads = [
   {
     key: 'windows',
+    name: 'Microsoft Store',
+    ext: '.appx',
+    href: 'https://apps.microsoft.com/detail/9n9zrstf5fjj?hl=en-US',
+  },
+  {
+    key: 'windows_x64',
     name: 'Windows',
     ext: '.exe',
     href: `https://release.liriliri.io/aya/AYA-${version}-win-x64.exe`,
