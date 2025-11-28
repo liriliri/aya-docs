@@ -2,7 +2,7 @@
 
 ## 安装
 
-AYA 支持 [Windows x64](https://release.liriliri.io/aya/AYA-1.14.1-win-x64.exe)，[macOS arm64](https://release.liriliri.io/aya/AYA-1.14.1-mac-arm64.dmg)，[macOS x64](https://release.liriliri.io/aya/AYA-1.14.1-mac-x64.dmg) 和 [Linux](https://release.liriliri.io/aya/AYA-1.14.1-linux-x86_64.AppImage) 两个平台，下载安装后直接点击桌面图标开始使用。
+AYA 支持 [Windows x64](https://release.liriliri.io/aya/AYA-1.14.2-win-x64.exe)，[macOS arm64](https://release.liriliri.io/aya/AYA-1.14.2-mac-arm64.dmg)，[macOS x64](https://release.liriliri.io/aya/AYA-1.14.2-mac-x64.dmg) 和 [Linux](https://release.liriliri.io/aya/AYA-1.14.2-linux-x86_64.AppImage) 两个平台，下载安装后直接点击桌面图标开始使用。
 
 ## 连接设备
 

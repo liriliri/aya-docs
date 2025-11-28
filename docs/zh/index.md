@@ -6,7 +6,7 @@ title: Android ADB 桌面应用
 import AppHome from '@share/components/AppHome.vue'
 import code from '@theme/lib/code'
 
-const version = "1.14.1"
+const version = "1.14.2"
 
 const downloads = [
   {
